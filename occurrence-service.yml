@@ -1,9 +1,9 @@
 #Spring Boot configuration
 spring:
-
   #DB configuration
   datasource:
     driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/occurrence-db
 
   #JPA properties
   jpa:
